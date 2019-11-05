@@ -18,7 +18,7 @@ import java.io.PrintWriter;
 public class RegLoginController {
     @RequestMapping("/login_p")
     public RespBean login() {
-        return RespBean.error("尚未登录，请登录!");
+        return RespBean.error("您尚未登录，请先登录!");
     }
     @GetMapping("/employee/advanced/hello")
     public String hello() {
